@@ -1,0 +1,184 @@
+.body__sun-gym {
+  --color-brand: deeppink;
+  --color-brand-light: pink;
+  --color-primary: #4ba6ff;
+  --color-primary-light: lightblue;
+  --color-secondary: #ae57ff;
+  --color-secondary-light: #d2b8eb;
+
+  --color-white: white;
+  --color-black: black;
+
+  --color-canvas: white;
+
+  --color-text: black;
+  --color-text-inverted: white;
+
+  --color-accept: deeppink;
+  --color-accept-light: white;
+  --color-cancel: teal;
+  --color-cancel-light: white;
+
+  --font-weight_body: 700;
+
+  --action-bar_button_color: #ae57ff;
+
+  --lock-overlay_background: aqua;
+  --lock-overlay_opacity: 0.4;
+
+  --new-task-category-border-color: var(--color-brand);
+  --new-task-category-border-width: 0;
+
+
+  --modal_set-top-or-bottom_not-selected_background: var(--color-canvas);
+  --modal_set-top-or-bottom_not-selected_border-color: var(--color-secondary);
+  --modal_set-top-or-bottom_not-selected_color: var(--color-secondary);
+  --modal_set-top-or-bottom_selected_background: var(--color-secondary-light);
+  --modal_set-top-or-bottom_selected_border-color: var(--color-secondary);
+  --modal_set-top-or-bottom_selected_color: var(--color-secondary);
+
+  --modal_set-top-or-bottom_background_hover: var(--color-secondary);
+  --modal_set-top-or-bottom_border-color_hover: var(--color-secondary);
+  --modal_set-top-or-bottom_color_hover: var(--color-text-inverted);
+
+  --banner_background: var(--color-canvas);
+  --banner_color: var(--action-bar_button_color);
+
+  --categorySelected-background: deeppink;
+  --categorySelected-color: white;
+
+  --new-cat_background: deeppink;
+  --new-cat_color: deeppink;
+  --new-cat_hover: deeppink;
+
+  --flow-highlight-background: var(--color-secondary-light);
+  --flow-highlight-color: var(--color-secondary);
+  --flow-highlight-category-border-color: var(--color-secondary);
+  --flow-highlight-task-color: var(--color-secondary);
+
+  filter: saturate(1.4);
+  /* background: white; */
+  --categoryHeader-color: blue;
+}
+
+.body__sun-gym .action-bar {
+  border: none;
+  color: #ae57ff;
+}
+.body__sun-gym .action-bar_inner {
+  margin: 0 auto;
+}
+
+/* A category with tasks parent */
+.body__sun-gym .category-with-tasks-container {
+  color: #4ba6ff;
+}
+
+/* A category header */
+.body__sun-gym .toggle-category {
+  width: 76px;
+  border-color: deeppink;
+}
+.body__sun-gym .editCategory {
+  border-color: deeppink;
+}
+
+.body__sun-gym .showCounter {
+  border-color: deeppink;
+  color: deeppink;
+}
+
+.body__sun-gym .categoryHeader input {
+  color: "hotpink";
+  background: "red";
+}
+
+.body__sun-gym .input::placeholder {
+  color: "hotpink";
+  background: "red";
+}
+
+/* a task */
+
+.body__sun-gym .create-new-task {
+  color: #4ba6ff;
+}
+
+.body__sun-gym #newTaskCategoryGrid {
+  color: hotpink;
+}
+
+.body__sun-gym .defaultOrderNewTask {
+  background: cornflowerblue;
+  border-color: cornflowerblue;
+  color: white;
+}
+
+/* Used for up&down btn's on tasks */
+.body__sun-gym #taskUp,
+.body__sun-gym #taskDown {
+  border-color: lightseagreen;
+  border-color: #a0dfd6;
+}
+
+.body__sun-gym .spanMoveTaskDownBtn,
+.body__sun-gym .spanMoveTaskUpBtn {
+  color: lightseagreen;
+  color: #a0dfd6;
+  /* background: red; */
+}
+
+.body__sun-gym .taskTitle {
+  color: mediumslateblue;
+  border: none;
+}
+.body__sun-gym .task-checkbox-container-checked {
+  background: mediumslateblue;
+  border-color: mediumslateblue;
+  color: white;
+}
+.body__sun-gym .task-checkbox-container-unchecked {
+  border-color: silver;
+}
+
+.body__sun-gym .modal {
+  border-color: #ae57ff;
+  background: white;
+  color: #ae57ff;
+}
+
+.body__sun-gym .modal_warning {
+  border: none;
+  background: white;
+  color: #ae57ff;
+}
+
+.body__sun-gym footer {
+  border-color: transparent;
+}
+
+.body__sun-gym .css-theme-btn {
+  border-color: red;
+}
+
+@media only screen and (min-width: 1600px) {
+  .body__sun-gym .createNewTask_CategoryName:hover {
+    color: white;
+    background: deeppink;
+  }
+  .body__sun-gym .createNewTask_CatDeleteBtn:hover {
+    background: deeppink;
+    color: white;
+  }
+
+  .body__sun-gym #taskUp:hover,
+  .body__sun-gym #taskDown:hover {
+    background: lightseagreen;
+    background: #a0dfd6;
+    color: white;
+  }
+  .body__sun-gym .spanMoveTaskDownBtn:hover,
+  .body__sun-gym .spanMoveTaskUpBtn:hover {
+    color: white;
+  }
+}

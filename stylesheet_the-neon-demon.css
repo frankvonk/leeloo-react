@@ -1,0 +1,197 @@
+.body__the-neon-demon {
+  --color-brand: white;
+  --color-brand-light: rgb(117, 68, 69);
+
+  --color-primary: deeppink;
+  --color-primary-light: hotpink;
+  --color-secondary: rgba(253, 210, 224, 0.988);
+  --color-secondary-light: rgb(108, 131, 108);
+
+  --color-white: white;
+  --color-black: black;
+
+  --color-canvas: black;
+
+  --color-text: black;
+  --color-text-inverted: white;
+
+  --color-accept: var(--color-primary);
+  --color-accept-light: var(--color-secondary-light);
+  --color-cancel: var(--color-secondary);
+  --color-cancel-light: var(--color-primary-light);
+
+  --color-link: var(--color-text-inverted);
+
+  --action-bar_background: var(--color-primary);
+  --action-bar_button_color: var(--color-white);
+  --lock-overlay_background: aqua;
+  --lock-overlay_opacity: 0.4;
+  --modal_set-top-or-bottom_not-selected_background: var(--color-white);
+  --modal_set-top-or-bottom_not-selected_border-color: var(--color-brand);
+  --modal_set-top-or-bottom_not-selected_color: var(--color-text);
+  --modal_set-top-or-bottom_selected_background: var(--color-primary);
+  --modal_set-top-or-bottom_selected_border-color: var(--color-primary);
+  --modal_set-top-or-bottom_selected_color: var(--color-text-inverted);
+  --modal_set-top-or-bottom_background_hover: var(--color-brand-light);
+  --modal_set-top-or-bottom_border-color_hover: var(--color-brand-light);
+  --modal_set-top-or-bottom_color_hover: var(--color-text-inverted);
+  --modal_modal-cancel_background: var(--color-cancel);
+  --modal_modal-cancel_color: var(--color-text-inverted);
+  --modal_modal-cancel_background_hover: var(--color-cancel-light);
+  --modal_modal-cancel_border-color_hover: var(--color-cancel-light);
+  --modal_modal-accept_background: var(--color-accept);
+  --modal_modal-accept_color: var(--color-text-inverted);
+  --modal_modal-accept_background_hover: var(--color-accept-light);
+  --modal_modal-accept_border-color_hover: var(--color-accept-light);
+  --action-bar_box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  --banner_background: var(--color-white);
+  --banner_color: var(--color-primary);
+  --new-task-category-border-color: transparent;
+  --new-task-category-border-width: 0px;
+  --newTaskCategoryGrid-background: transparent;
+
+
+  --settings-button-new-task-not-selected-background: var(--color-primary);
+  --settings-button-new-task-not-selected-color: var(--color-white);
+  --settings-button-new-task-selected-background: var(--color-white);
+  --settings-button-new-task-selected-color: var(--color-primary);
+
+  --category-and-tasks-buttons-hover-color: var(--color-white);
+  --category-and-tasks-buttons-hover-background: var(--color-primary);
+  --task-link_text-shadow: 0px 0px 2px black;
+  --categorySelected-background: var(--color-primary);
+  --categorySelected-color: white;
+  --new-cat_background: var(--color-primary);
+  --new-cat_color: var(--color-primary);
+  --new-cat_hover: var(--color-primary);
+
+  --createNewTask_CatDeleteBtn-text-shadow: 0px 0px 2px black;
+  --createNewTask_CategoryName-padding-left: 4px;
+  --createNewTask_CategoryName-color: var(--color-white);
+  --createNewTask_CategoryName-color-selected: var(--color-primary);
+  --createNewTask_CategoryName-background-color-selected: var(--color-white);
+  --createNewTask_CategoryName-text-shadow: 0px 0px 2px black;
+  --createNewTask_CategoryName-text-shadow-selected: none;
+  --new-task-title-input-parent-background: var(--color-primary);
+  --newTaskTitleTextArea-color: var(--color-primary);
+  --newTaskTitleTextArea-placeholder-color: var(--color-primary);
+  --new-task_submit-background: var(--color-primary);
+
+  --category-header-title-color-selected: var(--color-primary);
+  --new-cat_label-color: var(--color-white);
+
+  --color-category-with-tasks-container: var(--color-text);
+  --flow-highlight-background: rgba(255, 255, 255, 0.2);
+  --flow-highlight-color: var(--color-primary);
+  --flow-highlight-category-border-color: var(--color-primary);
+  --flow-highlight-task-color: white;
+  --category-header-title-background: var(--color-primary);
+  --category-header-title-background-hover: var(--color-primary-light);
+  --category-header-title-color-hover: var(--color-white);
+  --category-header-title-border-color: var(--color-primary);
+  --category-header-title-border-color-hover: var(--color-primary-light);
+  --category-header-title-text-shadow-hover: 0px 0px 2px black;
+  --category-header-title-text-shadow-selected-hover: 0px 0px 2px black;
+  --category-header-title-background-selected-hover: var(--color-primary-light);
+  --category-header-title-color-selected-hover: var(--color-white);
+  --category-header-title-border-color-selected-hover: var(
+    --color-primary-light
+  );
+  --category-header-and-tasks-buttons-background: var(--color-white);
+  --category-header-and-tasks-buttons-color: black;
+  --category-header-and-tasks-buttons-border-color: var(--color-white);
+  --category-header-and-tasks-buttons-hover-color: var(--color-white);
+  --category-header-and-tasks-buttons-hover-background: var(--color-primary);
+  --category-header-and-tasks-buttons-hover-border-color: var(--color-primary);
+  --category-header-and-tasks-buttons-opacity: 0.5;
+  --category-header-and-tasks-buttons-hover-opacity: 1;
+  --taskTitle-color: var(--color-white);
+  --taskTitle-border-width: 0px;
+  --task-checkbox-container-checked-background: var(--color-primary);
+  --task-checkbox-container-checked-border-color: transparent;
+  --task-checkbox-container-unchecked-background: var(--color-white);
+  --task-checkbox-container-unchecked-border-color: transparent;
+  --task-checkbox-container-unchecked-opacity: 0.5;
+  --footer-createdBy-background: var(--color-white);
+  --footer-createdBy-opacity: 0.5;
+  --footer-css-theme-btn-color: var(--color-primary);
+  --footer-css-theme-btn-background: var(--color-white);
+  --footer-css-theme-btn-opacity: 0.5;
+
+  /* --scrollbar-width: 10px; */
+  --scrollbar-track-background: white;
+  --scrollbar-thumb-background: var(--color-primary-light);
+
+  --scrollbar-thumb-hover-background: var(--color-primary-light);
+  --scrollbar-thumb-hover-background: #b38b67;
+  --scrollbar-thumb-hover-border: var(--color-primary-light);
+
+  filter: saturate(1.4);
+  /* background: white; */
+
+  /* EYE */
+  /* background-image: url("./images/Screenshot 2024-08-30 at 21.33.04.png");
+  background-position: -51em -17em;
+  background-size: 144%; */
+
+  /* background-image: url("./images/Screenshot 2024-08-30 at 21.55.44.png");
+  background-position: 0em 42px;
+  background-size: 100%;
+ */
+
+  /*
+ food ship cat
+  background-image: url("./images/Screenshot 2024-08-30 at 21.07.50.png");
+ background-position: 0em 42px;
+ background-size: 100%;
+ */
+}
+
+.body__the-neon-demon .flowContainer {
+  /* opening blood neck */
+  background-color: black;
+  background-image: url("./images/Screenshot 2024-08-30 at 21.23.04.png");
+  background-position: -89em -20.8em;
+  background-size: 168em;
+  background-repeat: no-repeat;
+
+  background-size: 197em;
+  background-position: -112em -24.3em;
+}
+
+@media only screen and (min-width: 600px) {
+  .body__the-neon-demon .flowContainer {
+    background-position: -27em -23em;
+    background-size: 185em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .body__the-neon-demon .flowContainer {
+    background-position: -23em -21em;
+    background-size: 170em;
+  }
+}
+
+/* Tested iPad Pro 13 1600" */
+@media only screen and (min-width: 1550px) {
+  .body__the-neon-demon .flowContainer {
+    background-position: -32em -25em;
+    background-size: 202em;
+  }
+}
+
+/* Macbook - Desktop Desktop Desktop Desktop Desktop Desktop Desktop */
+/* @media only screen and (min-width: 2000px) {
+  .body__the-neon-demon .flowContainer {
+    background-position: -26em -27em;
+    background-size: 216em;
+  }
+} */
+
+@media only screen and (min-width: 2000px) {
+  .body__the-neon-demon .flowContainer {
+    background-position: -27em -26em;
+    background-size: 209em;
+  }
+}

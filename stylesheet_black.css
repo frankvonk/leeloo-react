@@ -1,0 +1,215 @@
+.body__black {
+  /* font-family: sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  letter-spacing: 0.4px;
+
+  font-family: allerta;
+
+  --color-brand: deeppink;
+  --color-primary: #4ba6ff;
+  --color-primary-light: lightblue;
+  --color-secondary: #ae57ff;
+  --color-secondary-light: #d2b8eb;
+
+  --color-white: white;
+  --color-black: black;
+
+  --color-canvas: black;
+
+  --color-text: white;
+  --color-text-inverted: black;
+
+  --color-accept: teal;
+  --color-accept-light: black;
+
+  --color-cancel: var(--color-brand);
+  --color-cancel-light: black;
+
+  --action-bar_button_color: #ae57ff;
+
+  --lock-overlay_background: blue;
+  --lock-overlay_opacity: 0.4;
+
+  --modal_set-top-or-bottom_not-selected_background: var(--color-canvas);
+  --modal_set-top-or-bottom_not-selected_border-color: var(--color-primary);
+  --modal_set-top-or-bottom_not-selected_color: var(--color-primary);
+  --modal_set-top-or-bottom_selected_background: var(--color-primary-light);
+  --modal_set-top-or-bottom_selected_border-color: var(--color-primary);
+  --modal_set-top-or-bottom_selected_color: var(--color-text-inverted);
+
+  --modal_set-top-or-bottom_background_hover: var(--color-primary);
+  --modal_set-top-or-bottom_border-color_hover: var(--color-primary);
+  --modal_set-top-or-bottom_color_hover: var(--color-text-inverted);
+
+  --banner_background: var(--color-canvas);
+  --banner_color: var(--action-bar_button_color);
+
+  --category-header-title-background: black;
+  --category-header-title-color-selected: var(--color-text-inverted);
+
+  --categorySelected-background: deeppink;
+  --categorySelected-color: black;
+
+  --flow-highlight-background: #444;
+  --flow-highlight-color: --color-primary;
+
+  --flow-highlight-category-border-color: var(--color-primary);
+  --flow-highlight-task-color: var(black);
+
+  --new-cat_background: deeppink;
+  --new-cat_color: deeppink;
+  --new-cat_hover: deeppink;
+
+  --new-task-category-border-color: var(--color-brand);
+  --new-task-category-border-width: 0;
+  --newTaskCategoryGrid-background: transparent;
+
+  --task-checkbox-unchecked-background: black;
+  --task-checkbox-checked-background: #ae57ff;
+
+  filter: saturate(1.4);
+  --categoryHeader-color: blue;
+}
+
+/* A category with tasks parent */
+.body__black .category-with-tasks-container {
+  /* color: #4ba6ff; */
+}
+
+.body__black .newTaskTitleInputLabel {
+  /* color: black; */
+}
+.body__black .new-task_submit {
+  /* color: black; */
+}
+.body__black .new-cat_submit {
+  /* color: black; */
+}
+
+.body__black .toggle-category {
+  width: 76px;
+}
+.body__black .arrowLeftRight,
+.body__black .toggle-category,
+.body__black .editCategory,
+.body__black .showCounter {
+  background: black;
+  border-color: deeppink;
+  color: deeppink;
+}
+
+.body__black .categoryHeader input {
+  color: "hotpink";
+  background: "red";
+}
+
+.body__black .input::placeholder {
+  color: "hotpink";
+  background: "red";
+}
+
+.body__black .create-new-task {
+  color: #4ba6ff;
+}
+
+.body__black #newTaskCategoryGrid {
+  color: hotpink;
+}
+
+.body__black input,
+.body__black textarea,
+.body__black input:active {
+  background: black;
+  color: red;
+}
+
+.body__black .default-order-new-task-first,
+.body__black .default-order-new-task.selected {
+  background: #ae57ff;
+  color: black;
+}
+.body__black .default-order-new-task-last,
+.body__black .default-order-new-task.not-selected {
+  background: black;
+  color: #ae57ff;
+}
+
+/* Used for up&down btn's on tasks */
+.body__black #taskUp,
+.body__black #taskDown {
+  border-color: lightseagreen;
+  border-color: #a0dfd6;
+}
+
+.body__black .spanMoveTaskDownBtn,
+.body__black .spanMoveTaskUpBtn {
+  color: lightseagreen;
+  color: #a0dfd6;
+}
+
+.body__black .taskTitle {
+  color: lightgrey;
+  border: none;
+}
+.body__black .task-checkbox-container-checked {
+  border-color: #ae57ff;
+}
+.body__black .task-checkbox-container-unchecked {
+  border-color: #ae57ff;
+}
+
+.body__black .modal {
+  border-color: #ae57ff;
+  background: black;
+  color: #ae57ff;
+}
+
+.body__black .modal_warning {
+  border: none;
+  background: black;
+  color: #ae57ff;
+}
+
+.body__black footer {
+  border-color: transparent;
+}
+
+.body__black .css-theme-btn {
+  border-color: red;
+  color: red;
+}
+
+@media only screen and (min-device-width: 1000px) {
+  .body__black .arrowLeftRight:hover,
+  .body__black .toggle-category:hover,
+  .body__black .editCategory:hover,
+  .body__black .showCounter:hover {
+    background: deeppink;
+    color: black;
+  }
+
+  .body__black .createNewTask_CategoryName:hover {
+    color: black;
+    background: deeppink;
+  }
+
+  .body__black .createNewTask_CatDeleteBtn:hover {
+    background: deeppink;
+    color: white;
+  }
+
+  .body__black #taskUp:hover,
+  .body__black #taskDown:hover {
+    background: lightseagreen;
+    background: #a0dfd6;
+    color: white;
+  }
+
+  .body__black .spanMoveTaskDownBtn:hover,
+  .body__black .spanMoveTaskUpBtn:hover {
+    color: white;
+  }
+}

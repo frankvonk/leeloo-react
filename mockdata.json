@@ -1,0 +1,140 @@
+{
+    "categories": [
+        {
+            "id": "ud43uioijk",
+            "description": "Workingjkjk,",
+            "displayContent": true,
+            "tasksCounter": true,
+            "tasks": [
+                {
+                    "title": "wefgre",
+                    "id": "idbkQh2",
+                    "checked": false
+                },
+                {
+                    "title": "dfvc",
+                    "id": "idRG3Lq"
+                },
+                {
+                    "title": "iuhji",
+                    "id": "idCb98p"
+                }
+            ]
+        },
+        {
+            "id": "ud1609878",
+            "description": "Example",
+            "displayContent": true,
+            "tasks": [
+                {
+                    "title": "fdb",
+                    "id": "idS6yN5",
+                    "checked": true
+                },
+                {
+                    "title": "wfaed",
+                    "id": "id56BS8",
+                    "checked": true
+                }
+            ]
+        },
+        {
+            "id": "General",
+            "description": "General",
+            "displayContent": true,
+            "tasks": [
+                {
+                    "title": "svdzjk",
+                    "id": "idpg37j",
+                    "checked": true
+                },
+                {
+                    "title": "Drink Coffee",
+                    "id": "ud1608751329598",
+                    "checked": true,
+                    "linkLabel": "uhojlyoibhjnvypibuonjklm;,ovuybih;jnolkm,.",
+                    "linkURL": "iuhjknijnklkmiph;jnklkm.,oygihujnlkm"
+                },
+                {
+                    "title": "Demo",
+                    "id": "ud1610722542572",
+                    "checked": false
+                },
+                {
+                    "title": "ticket research",
+                    "id": "ud1608751329598445",
+                    "checked": false
+                },
+                {
+                    "title": "this is a testcard",
+                    "id": "id1608751329sfdgcv598445"
+                }
+            ]
+        }
+    ],
+    "history": [
+        {
+            "id": "ud43554",
+            "description": "other cat in history",
+            "tasks": [
+                {
+                    "title": "whijefgre",
+                    "id": "idyiuhobkQh2",
+                    "checked": false
+                },
+                {
+                    "title": "dfgyihuovc",
+                    "id": "idRGygiuho3Lq"
+                },
+                {
+                    "title": "iugyiuhji",
+                    "id": "idCb9biuho8p"
+                }
+            ]
+        },
+        {
+            "id": "ud43usfvj554",
+            "description": "some cat in history,",
+            "tasks": [
+                {
+                    "title": "wefesfrggre",
+                    "id": "idbkQhsf2",
+                    "checked": false
+                },
+                {
+                    "title": "dfvcsfsf",
+                    "id": "idRG3Lsfq"
+                },
+                {
+                    "title": "iuhesdfgcjsfi",
+                    "id": "idCb98sgfsrp"
+                }
+            ]
+        }
+    ],
+    "deleted": [
+        {
+            "id": "ud43uj55dbdfv4",
+            "description": "some cat in deleted,",
+            "tasks": [
+                {
+                    "title": "i am deleted task",
+                    "id": "idbkQhsferg2",
+                    "checked": false
+                },
+                {
+                    "title": "dfvcsfsdgbf",
+                    "id": "idRG3Ldfgbsdtgfq"
+                },
+                {
+                    "title": "iuhjsfi",
+                    "id": "idCb98sdgtbgfsrp"
+                }
+            ]
+        }
+    ],
+    "showCounterTaskTypeTodo": true,
+    "showCounterTaskTypeAdvice": true,
+    "actionBarOnTop": true,
+    "banner": ""
+}

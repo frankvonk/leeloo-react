@@ -1,0 +1,230 @@
+body {
+  /* Style variables */
+  --color-brand: blue;
+  --color-brand-light: lightblue;
+  --color-primary: green;
+  --color-primary-light: lightgreen;
+  --color-secondary: red;
+  --color-secondary-light: pink;
+
+  --color-white: white;
+  --color-black: black;
+
+  --color-canvas: white;
+
+  --color-text: black;
+  --color-text-inverted: white;
+
+  --color-accept: var(--color-primary);
+  --color-accept-light: var(--color-primary-light);
+
+  --color-cancel: var(--color-secondary);
+  --color-cancel-light: var(--color-secondary-light);
+
+  --font-weight_body: 500;
+
+  --color-link: var(--color-text);
+  --action-bar_button_color: var(--color-text);
+
+  --lock-overlay_background: grey;
+  --lock-overlay_opacity: 0.7;
+
+  --modal_set-top-or-bottom_not-selected_background: var(--color-canvas);
+  --modal_set-top-or-bottom_not-selected_border-color: var(--color-brand);
+  --modal_set-top-or-bottom_not-selected_color: var(--color-brand);
+  --modal_set-top-or-bottom_selected_background: var(--color-brand-light);
+  --modal_set-top-or-bottom_selected_border-color: var(--color-brand);
+  --modal_set-top-or-bottom_selected_color: var(--color-brand);
+
+  --modal_set-top-or-bottom_background_hover: var(--color-brand);
+  --modal_set-top-or-bottom_border-color_hover: var(--color-brand);
+  --modal_set-top-or-bottom_color_hover: var(--color-text-inverted);
+
+  --modal_modal-cancel_background: var(--color-cancel-light);
+  --modal_modal-cancel_color: var(--color-cancel);
+  --modal_modal-cancel_border-color: var(--color-cancel);
+  --modal_modal-cancel_background_hover: var(--color-cancel);
+  --modal_modal-cancel_color_hover: var(--color-text-inverted);
+  --modal_modal-cancel_border-color_hover: var(--color-cancel);
+
+  --modal_modal-accept_background: var(--color-accept-light);
+  --modal_modal-accept_color: var(--color-accept);
+  --modal_modal-accept_border-color: var(--color-accept);
+  --modal_modal-accept_background_hover: var(--color-accept);
+  --modal_modal-accept_color_hover: var(--color-text-inverted);
+  --modal_modal-accept_border-color_hover: var(--color-accept);
+
+  --action-bar_background: var(--color-canvas);
+
+  --saving-spinner_color: white;
+  --banner_background: var(--color-canvas);
+  --banner_color: var(--action-bar_button_color);
+
+  --new-task-category-border-color: black;
+  --new-task-category-border-width: 1px 2px 1px 2px;
+  --newTaskCategoryGrid-background: silver;
+
+
+  --settings-button-new-task-not-selected-background: var(--color-white);
+  --settings-button-new-task-not-selected-color: var(--color-primary);
+  --settings-button-new-task-selected-background: var(--color-primary);
+  --settings-button-new-task-selected-color: var(--color-white);
+
+  --new-task_color: grey;
+  --new-cat_background: grey;
+  --new-cat_color: grey;
+  --new-cat_hover: silver;
+
+  --color-category-with-tasks-container: var(--color-brand);
+
+  --category-header-title-background: var(--color-white);
+  --category-header-title-border-color: var(--color-brand);
+  --category-header-title-color: var(--color-brand);
+  --category-header-buttons-background: var(--color-white);
+  --category-header-buttons-border: var(--color-brand);
+  --category-header-buttons-color: var(--color-brand);
+
+  --category-header-title-background-selected: var(--color-brand);
+  --category-header-title-border-color-selected: var(--color-brand);
+  --category-header-title-color-selected: var(--color-text-inverted);
+
+  --task-title_border-color: black;
+
+  --task-link_text-shadow: none;
+  --task-link_background: none;
+  --task-link_background-opacity: 1;
+
+  --flow-highlight-background: var(--color-primary-light);
+  --flow-highlight-color: var(--color-text);
+  --flow-highlight-category-border-color: var(--color-primary);
+  --flow-highlight-task-color: var(black);
+
+  --footer-css-theme-btn-background: transparent;
+  --footer-css-theme-btn-opacity: 1;
+
+  --task-checkbox-unchecked-background: none;
+  --task-checkbox-checked-background: black;
+
+  --category-header-and-tasks-buttons-text-shadow: inherit;
+
+  --scrollbar-width: 20px;
+  --scrollbar-track-background: aqua;
+  --scrollbar-thumb-background: deeppink;
+  --scrollbar-thumb-hover-background: #ae57ff;
+  --scrollbar-thumb-hover-border: 6px solid #ae57ff;
+  --html-font-size: 10px;
+  --html-letter-spacing: 1px;
+  --saving-spinner-left: 1em;
+  --saving-spinner-padding: 4px;
+  --retrieving-data-spinner-top: 5em;
+  --retrieving-data-spinner-width: 100%;
+  --retrieving-data-spinner-p-padding: 1em;
+  --action-bar-font-size: 8px;
+  --action-bar-height: 40px;
+  --action-bar-width: 100%;
+  --action-bar-padding-bottom: 4px;
+  --action-bar-button-font-size: 10px;
+  --action-bar-button-padding: 4px 6px 6px 6px;
+  --action-bar-button-margin: 10px 0.5em 0.5em;
+  --action-bar-item-padding: 4px 6px 6px 6px;
+  --action-bar-item-margin: 11px 0.5em 0.5em;
+  --signature-height: 32px;
+  --signature-padding: 0px 0px 0px 0px;
+  --signature-margin: 6px 0px 0px 16px;
+  --modal-top: 200px;
+  --modal-width: 400px;
+  --modal-padding: 20px;
+  --modal-label-width: 400px;
+  --inputForChangingTaskTitle-height: 5em;
+  --binModalHeader-min-width: 428px;
+  --binTaskTitle-word-break: break-all;
+  --flowContainer-padding: 4px 2px 0px;
+  --flowContainer-margin: 0px 0px 0 0px;
+  --createNewTaskGrid-width: 208px;
+  --create-new-task-width: 190px;
+  --createNewTask_CategoryName-border-width: 1px 0px 1px 0px;
+  --createNewTask_CategoryName-padding-bottom: 1px;
+  --defaulCategory-grid-column: 1 / 3;
+  --createNewTask_CatDeleteBtn-border-width: 1px 0px 1px 2px;
+  --createNewTask_CatDeleteBtn-padding: 0 0 0px 1px;
+  --currentlySelectedCategory-margin-top: 1em;
+  --newTaskTitleInputParent-margin: 16px 0px 16px 0px;
+  --new-task-title-input-parent-background: #4ba6ff;
+  --newTaskTitleInputParent-padding: 0px 2px 0px 2px;
+  --newTaskTitleInputLabel-padding: 4px;
+  --newTaskTitleTextArea-height: 32px;
+  --newTaskTitleTextArea-width: calc(100% - 4px);
+  --newTaskTitleTextArea-padding: 6px 2px 0px 2px;
+  --newTaskTitleTextArea-margin: 0px 0px 0px 0px;
+  --newTaskTitleTextArea-font-size: 1em;
+  --newTaskTitleTextArea-text-align: center;
+  --newTaskTitleTextArea-color: #4ba6ff;
+  --newTaskTitleTextArea-placeholder-color: #4ba6ff;
+  --new-task_submit-height: 40px;
+  --new-task_submit-width: 100%;
+  --new-task_submit-font-size: 1.42em;
+  --new-task_submit-background: #4ba6ff;
+  --new-task_submit-color: white;
+  --settings-button-new-task_parent-margin: 16px 0px 16px 0px;
+  --settings-button-new-task_parent-display: flex;
+  --settings-button-new-task_parent-button-width: 50%;
+  --new-cat_parent-font-size: 1.1em;
+  --new-cat_input-height: 20px;
+  --new-cat_input-width: calc(100% - 8px);
+  --new-cat_input-padding: 6px 2px 0px 2px;
+  --new-cat_input-margin: 0px 0px 2px 0px;
+  --new-cat_input-font-size: 1em;
+  --new-cat_input-text-align: center;
+  --new-cat_submit-height: 40px;
+  --new-cat_submit-width: 100%;
+  --new-cat_submit-font-size: 1.42em;
+  --defaultOrderNewTask-width: 50%;
+  --categoryHeaderTable-margin: 0 0px 0 0px;
+  --categoryHeaderTable-width: 213px;
+  --categoryHeaderTable-margin2: -2px;
+  --category-header-title-height: 32px;
+  --arrowLeftRight-min-width: 6px;
+  --arrowLeftRight-max-width: 6px;
+  --arrowLeftRight-width: 6px;
+  --toggle-category-width: 20px;
+  --editCategory-width: 20px;
+  --showCounter-padding: 0px 0px 0px;
+  --taskTable-border-spacing: 2px;
+  --taskTable-margin-top: 2em;
+  --category-header-and-tasks-buttons-font-size: 14px;
+  --category-header-and-tasks-buttons-font-weight: 500;
+  --spanMoveTaskDownBtn-min-width: 20px;
+  --spanMoveTaskDownBtn-padding: 0px 0 4px 0px;
+  --spanMoveTaskDownBtn-display: block;
+  --spanMoveTaskDownBtn-transform: rotate(90deg);
+  --spanMoveTaskUpBtn-min-width: 20px;
+  --spanMoveTaskUpBtn-display: block;
+  --spanMoveTaskUpBtn-padding: 0 0px 4px 2px;
+  --spanMoveTaskUpBtn-transform: rotate(90deg);
+  --taskTitle-max-width: 200px;
+  --taskTitle-min-width: 200px;
+  --taskTitle-background: none;
+  --emptyTaskTitle-height: 16em;
+  --taskChangeCategory-max-width: 130px;
+  --footer-width: 90%;
+  --footer-margin: 0 auto;
+  --footer-padding: 0.5em;
+  --footer-createdBy-padding: 1em;
+  --footer-div-margin: 0 auto;
+  --footer-div-padding-top: 8px;
+  --footer-a-padding: 0.5em;
+  --footer-a-border-width: 2px;
+  --footer-a-margin-left: 1em;
+  --settings-button-font-size: 2em;
+  --css-theme-btn-border-width: 1px;
+  --css-theme-btn-margin: 2px;
+  --css-theme-btn__active-font-weight: bold;
+  --flow-border: none;
+  --flow-margin: 1em;
+  --flow-margin2: 0px 2px 2em 1px;
+  --footer-counterTasks-color: #ae57ff;
+  --createNewTask_CatDeleteBtn-text-shadow: inherit;
+  --category-header-title-background-hover: inherit;
+  --category-header-title-color-hover: inherit;
+  --category-header-title-border-color-hover: inherit;
+}

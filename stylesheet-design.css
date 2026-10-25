@@ -1,0 +1,14 @@
+.iframe-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+  border: 1px solid blue;
+
+}
+iframe {
+  width: 375px;
+  width: 445px;
+  height: 1200px;
+  border: 1px solid red;
+}

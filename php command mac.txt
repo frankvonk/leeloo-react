@@ -1,0 +1,8 @@
+php -S localhost:9000
+
+open in terminal (not in iterm) which is opened on the folder where your index.php resides.
+then visit http://localhost:9000/ which calls index.php
+
+
+
+
