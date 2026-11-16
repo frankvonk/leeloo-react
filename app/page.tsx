@@ -1,5 +1,5 @@
-import PhpDataBridge from "./php-data-bridge";
+import App from "./App";
 
 export default function Home() {
-  return <PhpDataBridge />;
+  return <App />;
 }

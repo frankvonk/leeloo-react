@@ -21,6 +21,28 @@ or check if things still work after overhauling the codebase
 
 
 
+
+
+### User Stories
+- Login on startup
+    - Signing in to existing account
+        - show spinner page
+        - check localstorage for credentials
+        - attempt to fetch data with this
+            - if data, render tasks instead of spinner
+            - if fails, show auth modal
+                - Auth modal has:
+                    - login to existing account
+                        - 
+                    - and creating new account option
+                        - 
+    - Create new account
+
+
+
+
+
+
 ### EPICS IN ORDER
 - DRAGGABLE TASKS AND CATS
     - DRAG TASKS ORDER AND OTHER CAT
@@ -61,8 +83,9 @@ or check if things still work after overhauling the codebase
 
 
 
-
-
+design system, we use storybook for separate components. 
+Storybook should show buttons and components in different versions like light and dark, or with options and properties.
+also option to show that component for multiple or all brands, so you can immediately see the code update in hot reload for all brands. so you don't have 1 brand where the button loses all contrast for the text for example.
 
 
 Setup design system<br>in the codebase:<br><br>start a design system in local html and js and a user story system in files. then make a subfolder with the files needed to make the app run (index.php/css/assets) so you can easily upload only those files. combine leeloo do not upload folder and other this way on 1 leeloo folder with everything. user stories must be categorised so easy to import for tests. make them variables, as a userVar when i wanttomakenewtaskVar then... design set per theme needs to be easily copied if you want to make a new theme. it should use-share existing css variables file of the themes. maybe copies of them if needed but then in a way that you can synch them after approval of design

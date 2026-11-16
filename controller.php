@@ -1,6 +1,11 @@
 
 
 <?php
+    // Let the Next dev server (localhost:3000) call this API during development.
+    $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
+    if (in_array($origin, ['http://localhost:3000', 'http://127.0.0.1:3000'], true)) {
+        header('Access-Control-Allow-Origin: ' . $origin);
+    }
     //print('<script>console.log("PHP Controller");</script>');
     //print('PHP Controller');
 

@@ -34,14 +34,14 @@
       }
     });
   </script>
-  <div id="next-migration-root">
+  <!-- <div id="next-migration-root">
     <iframe
       id="next-migration-frame"
       src="http://localhost:3000"
       title="Next.js migration area"
       style="display: block; width: 100%; height: 72px; border: 0;"
     ></iframe>
-  </div>
+  </div> -->
 <?php endif; ?>
 
   <div class="love-story-background" aria-hidden="true"></div>
@@ -99,44 +99,44 @@
   </header>
 
      <!-- Background Controls -->
-  <div class=' background-controls' style="display: none;">
+  <!-- <div class=' background-controls' style="display: none;"> -->
       <!-- Size Controls -->
-    <div class="viewport-width">Width: <span id="width-value">0</span>px</div>
+    <!-- <div class="viewport-width">Width: <span id="width-value">0</span>px</div>
     <div class="background-controls-container">
       <div class='background-control-group'>
         <span style="font-size: 8px;">SIZE</span>
         <button class=' background-control-button' onclick=decreaseBackgroundSize() title="Decrease background size">-</button>
         <span id="background-size-display" style="font-size: 9px;">222em</span>
         <button class=' background-control-button' onclick=increaseBackgroundSize() title="Increase background size">+</button>
-      </div>
+      </div> -->
       
       <!-- Position X Controls -->
-      <div class='background-control-group'>
+      <!-- <div class='background-control-group'>
         <span style="font-size: 8px;">X</span>
         <button class=' background-control-button' onclick=decreaseBackgroundX() title="Move background left">-</button>
         <span id="background-x-display" style="font-size: 9px;">-26em</span>
         <button class=' background-control-button' onclick=increaseBackgroundX() title="Move background right">+</button>
-      </div>
+      </div> -->
       
       <!-- Position Y Controls -->
-      <div class='background-control-group'>
+      <!-- <div class='background-control-group'>
         <span style="font-size: 8px;">Y</span>
         <button class=' background-control-button' onclick=decreaseBackgroundY() title="Move background up">-</button>
         <span id="background-y-display" style="font-size: 9px;">-31em</span>
         <button class=' background-control-button' onclick=increaseBackgroundY() title="Move background down">+</button>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- Start Modal for general usage -->
-  <table class="modal" id="modal">
-  </table>
+  <!-- <table class="modal" id="modal"> -->
+  <!-- </table> -->
   <!-- End Modal for general usage -->
 
   <!-- Start Toast for general usage -->
-  <table class="toast" id="toast">
-  </table>
+  <!-- <table class="toast" id="toast"> -->
+  <!-- </table> -->
   <!-- End Toast for general usage -->
 
 
