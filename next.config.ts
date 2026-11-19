@@ -4,6 +4,12 @@ import type { NextConfig } from "next";
 // `npm run build` writes the site to `out/`; upload its contents next to controller.php.
 const nextConfig: NextConfig = {
   output: "export",
+  // Production lives in a subfolder (https://www.frankvonk.be/l23/).
+  // Dev keeps the root so localhost:3000 still works.
+  basePath: process.env.NODE_ENV === "production" ? "/l23" : "",
+  experimental: {
+    agentUpgrade: "security",
+  },
 };
 
 export default nextConfig;

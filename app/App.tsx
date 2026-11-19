@@ -57,6 +57,7 @@ export default function App() {
       <p>
         History: {db.history?.length ?? 0} · Bin: {db.deleted?.length ?? 0}
       </p>
+      <h1>yolo</h1>
     </main>
   );
 }
