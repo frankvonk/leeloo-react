@@ -1,5 +1,22 @@
 # flirty
 
+
+
+
+### STARTUP
+npm run dev
+npm run storybook
+
+npm run build
+- place contents of out together with controller.php in frankvonk.be/l23
+
+
+
+
+
+
+
+
 The Fifth Element is chosen as naming for the product because it was a plan that grew in Luc's mind for 20 years,
 and during actual production there was a 50% effort put in playing around to find what works the best.
 Some really good things that were made did'nt make the cut.

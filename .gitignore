@@ -13,3 +13,6 @@
 
 # OS/editor files
 .DS_Store
+
+*storybook.log
+storybook-static

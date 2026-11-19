@@ -7,7 +7,9 @@
     "dev:next": "next dev --hostname localhost --port 3000",
     "build": "next build",
     "start": "next start --hostname localhost --port 3000",
-    "lint": "eslint app"
+    "lint": "eslint app",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "next": "latest",
@@ -23,6 +25,19 @@
     "eslint": "latest",
     "eslint-config-next": "latest",
     "tailwindcss": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "storybook": "^10.6.7",
+    "@storybook/nextjs-vite": "^10.6.7",
+    "@chromatic-com/storybook": "latest",
+    "@storybook/addon-vitest": "^10.6.7",
+    "@storybook/addon-a11y": "^10.6.7",
+    "@storybook/addon-docs": "^10.6.7",
+    "@storybook/addon-mcp": "^10.6.7",
+    "vite": "latest",
+    "eslint-plugin-storybook": "^10.6.7",
+    "vitest": "^4",
+    "@vitest/browser-playwright": "^4",
+    "@vitest/coverage-v8": "^4",
+    "playwright": "latest"
   }
 }

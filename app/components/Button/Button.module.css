@@ -1,0 +1,19 @@
+/* Classic 90's raised grey button */
+.button {
+  font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+  font-size: 13px;
+  color: #000;
+  background: #c0c0c0;
+  padding: 3px 12px;
+  border: 2px outset #ffffff;
+  cursor: pointer;
+}
+
+.button:active {
+  border-style: inset;
+}
+
+.button:focus-visible {
+  outline: 1px dotted #000;
+  outline-offset: -5px;
+}
