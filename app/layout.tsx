@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "./styles/themes.css";
 
 export const metadata: Metadata = {
   title: "Leeloo Next.js migration",
@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="m-0">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

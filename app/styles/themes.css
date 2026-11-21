@@ -1,0 +1,17 @@
+/*
+  Master stylesheet: loads the original stylesheets unchanged, in the same
+  order as head.php. Each theme defines its CSS variables on a body class
+  (e.g. <body class="body__black">); no class = wireframe theme.
+*/
+@import url("https://fonts.googleapis.com/css?family=Allerta");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import "./stylesheet.css";
+@import "./stylesheet_wireframe.css";
+@import "./stylesheet_black.css";
+@import "./stylesheet_kowloon.css";
+@import "./stylesheet_sun-gym.css";
+@import "./stylesheet_love-story.css";
+@import "./stylesheet_the-white-lotus.css";
+@import "./stylesheet_the-neon-demon.css";
+@import "./stylesheet_irina-rimes.css";

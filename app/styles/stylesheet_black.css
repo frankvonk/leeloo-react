@@ -57,7 +57,7 @@
   --flow-highlight-color: --color-primary;
 
   --flow-highlight-category-border-color: var(--color-primary);
-  --flow-highlight-task-color: var(black);
+  --flow-highlight-task-color: black;
 
   --new-cat_background: deeppink;
   --new-cat_color: deeppink;

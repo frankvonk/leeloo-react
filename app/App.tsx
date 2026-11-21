@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import { loadDatabase, readConnection, saveConnection } from "./lib/api";
 import type { Connection, Database } from "./lib/types";
+import Leeloo from "./components/Leeloo/Leeloo";
+import { DbProvider } from "./lib/DbContext";
 
 type Status =
   | { kind: "loading" }
@@ -42,23 +44,10 @@ export default function App() {
     );
   }
 
-  // Step 1 output: prove the data arrives. UI comes in the next steps.
-  const { db } = status;
   return (
-    <main style={{ padding: 16 }}>
-      <h1>Data loaded</h1>
-      <ul>
-        {db.categories.map((category) => (
-          <li key={category.id}>
-            {category.description} ({category.tasks?.length ?? 0} tasks)
-          </li>
-        ))}
-      </ul>
-      <p>
-        History: {db.history?.length ?? 0} · Bin: {db.deleted?.length ?? 0}
-      </p>
-      <h1>yolo</h1>
-    </main>
+    <DbProvider initialDb={status.db}>
+      <Leeloo />
+    </DbProvider>
   );
 }
 

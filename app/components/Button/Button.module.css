@@ -1,11 +1,11 @@
-/* Classic 90's raised grey button */
+/* 90's button shape; colours come from the active theme's variables. */
 .button {
-  font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+  font-family: allerta, serif;
   font-size: 13px;
-  color: #000;
-  background: #c0c0c0;
+  color: var(--action-bar_button_color);
+  background: var(--color-primary);
   padding: 3px 12px;
-  border: 2px outset #ffffff;
+  border: 2px outset var(--action-bar_button_color);
   cursor: pointer;
 }
 
@@ -14,6 +14,6 @@
 }
 
 .button:focus-visible {
-  outline: 1px dotted #000;
+  outline: 1px dotted var(--color-text);
   outline-offset: -5px;
 }

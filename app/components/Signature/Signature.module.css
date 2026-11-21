@@ -1,0 +1,27 @@
+/* Size/spacing still comes from .signature in stylesheet.css. */
+.signature {
+  --signature-stroke: black; /* wireframe / default */
+  fill: none;
+  stroke: var(--signature-stroke);
+  stroke-width: 13;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  overflow: visible;
+}
+
+/* Same colours per theme as the old canvas code. */
+:global(.body__black) .signature,
+:global(.body__sun-gym) .signature {
+  --signature-stroke: #ae57ff;
+}
+
+:global(.body__irina-rimes) .signature,
+:global(.body__love-story) .signature,
+:global(.body__the-neon-demon) .signature,
+:global(.body__kowloon) .signature {
+  --signature-stroke: white;
+}
+
+:global(.body__the-white-lotus) .signature {
+  --signature-stroke: #ebdac0;
+}

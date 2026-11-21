@@ -9,7 +9,7 @@ export type Task = {
 export type Category = {
   id: string;
   description: string;
-  displayContent: boolean;
+  displayContent?: boolean;
   tasks?: Task[];
   [key: string]: unknown;
 };

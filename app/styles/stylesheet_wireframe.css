@@ -97,7 +97,7 @@ body {
   --flow-highlight-background: var(--color-primary-light);
   --flow-highlight-color: var(--color-text);
   --flow-highlight-category-border-color: var(--color-primary);
-  --flow-highlight-task-color: var(black);
+  --flow-highlight-task-color: black;
 
   --footer-css-theme-btn-background: transparent;
   --footer-css-theme-btn-opacity: 1;
